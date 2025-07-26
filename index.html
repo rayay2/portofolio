@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Muhammad Rasya</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #f5f5f5;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .about-flex {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .profile-box {
+      flex: 1;
+      max-width: 300px;
+    }
+
+    .profile-box img {
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-text {
+      flex: 2;
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .card {
+      padding: 10px 20px;
+      background-color: #eee;
+      border-radius: 8px;
+    }
+
+    .project {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #f5f5f5;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .about-flex {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about-text {
+        flex: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Selamat Datang</h1>
+      <p>
+        Nama saya <strong>Muhammad Rasya</strong>, seorang Web Developer muda
+        yang siap membantu Anda mewujudkan website yang profesional dan fungsional.
+      </p>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container about-flex">
+      <div class="profile-box">
+        <img src="profile.jpg" alt="Foto Non Background Muhammad Rasya" />
+      </div>
+      <div class="about-text">
+        <h2>Profil Singkat</h2>
+        <p>
+          Saya adalah siswa kelas 12 SMK dengan konsentrasi Rekayasa Perangkat Lunak (RPL).
+          Saya memiliki ketertarikan mendalam dalam pengembangan web dan telah menyelesaikan
+          berbagai proyek seperti sistem kasir, toko online, website portofolio, dan landing page.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills">
+    <div class="container">
+      <h2>Keahlian</h2>
+      <div class="grid">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">PHP</div>
+        <div class="card">MySQL</div>
+        <div class="card">Desain Web</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="container">
+      <h2>Proyek yang Pernah Dikerjakan</h2>
+      <div class="project">
+        <h3>Sistem Kasir</h3>
+        <p>Aplikasi kasir berbasis PHP dan MySQL untuk kebutuhan toko kecil atau usaha kuliner.</p>
+      </div>
+      <div class="project">
+        <h3>Toko Online</h3>
+        <p>Website e-commerce sederhana dengan fitur katalog produk dan proses checkout.</p>
+      </div>
+      <div class="project">
+        <h3>Website Portofolio</h3>
+        <p>Halaman portofolio pribadi untuk menampilkan informasi, keahlian, dan proyek yang telah diselesaikan.</p>
+      </div>
+      <div class="project">
+        <h3>Landing Page</h3>
+        <p>Desain halaman promosi yang responsif dan menarik untuk meningkatkan konversi bisnis.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2>Hubungi Saya</h2>
+      <p>📱 WhatsApp: <a href="https://wa.me/62895320591040" target="_blank">0895-3205-91040</a></p>
+      <p>🌐 Fiverr: <a href="https://fiverr.com/rayayy" target="_blank">fiverr.com/rayayy</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Muhammad Rasya. Seluruh hak cipta dilindungi.</p>
+    </div>
+  </footer>
+</body>
+</html>
